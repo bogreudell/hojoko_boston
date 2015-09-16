@@ -1,0 +1,51 @@
+/*
+ Theme Name: Hojoko Boston
+ Theme URI:
+ Theme Author: Daniel Bogre Udell (@dbudell)
+ Author URI: http://www.dbudell.com
+ Description: Designed by MATTE (matteprojects.com)
+ Version: 0
+ License: Standard IP
+ */
+
+@import url('css/normalize.css');
+
+@import url('css/main.css');
+
+li.hojoko-opening > a {
+    color: #111;
+}
+
+#drink-menu {
+    width: 75%;
+    max-width: 800px;
+    max-height: 1074px;
+    overflow-y: scroll;
+    margin: 0 auto 100px;
+    padding: 60px 60px 90px;
+    background: url('http://hojokoboston.com/wp-content/themes/hojoko-boston/img/black-paper.jpg') top left no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 60px #111;
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: #fff;
+}
+
+#drink-menu .column-one, #drink-menu .column-two { 
+    width: 40%;
+    float: left;
+    padding: 0 5%;
+}
+
+#drink-menu .column-one h1, #drink-menu .column-two h1 { 
+color: #8ead69;
+    letter-spacing: .175rem;
+}
+
+#drink-menu .column-one h2, #drink-menu .column-two h2 { 
+font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    margin: 30px 0 0 0;
+
+}
